@@ -1,0 +1,134 @@
+* {
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+   /* border:1px solid lightgrey;*/
+  }
+
+/* CSS code start*/
+.container {
+    font-family: 'Roboto Mono', monospace;
+}
+nav a.visit{
+    background-color:#FF764E;
+    border-radius:20px;
+    display:inline-block;
+    margin: 0 10% 0 10%;
+    padding: 20px;
+    text-decoration: none;
+    text-align:center;
+    color:black;
+}
+nav a.park{
+    background-color:#5ED3EB;
+    border-radius:20px;
+    display:inline-block;
+    margin: 0 10% 0 10%;
+    padding: 20px;
+    text-decoration: none;
+    text-align:center;
+    color:black;
+}
+nav a.involved{
+    background-color:#FFCD69;
+    border-radius:20px;
+    display:inline-block;
+    margin: 0 10% 0 10%;
+    padding: 20px;
+    text-decoration: none;
+    text-align:center;
+    color:black;
+}
+nav a.visit:hover {
+    background-color:lightpink;
+    color:purple;
+}
+nav a.park:hover {
+    background-color:violet;
+    color:slateblue;
+}
+nav a.involved:hover {
+    background-color:lightgreen;
+    color:darkolivegreen;
+}
+header {
+    border:2px solid black;
+}
+header div {
+    border:2px solid black;
+    display:inline-block;
+    width:45%;
+    text-align:center;
+}
+.disc-box {
+    display:inline-block;
+    text-align:center;
+    width:50%;
+    margin:0;
+}
+header img{
+    border-radius:50%;
+    display:inline-block;
+    width:50%;
+    margin:3% 0;
+    
+}
+h1.guide {
+    font-family: 'Chelsea Market', cursive;
+    font-size:350%;
+    display:inline-block;
+    width:100%;
+    text-align:center;
+    padding:3%;
+    margin:0 auto 5%;
+}
+header p {
+    display:inline-block;
+    text-align:center;
+    padding:0;
+    margin:0 auto 10%;
+}
+.body {
+    background-color:#DDB9A3;
+    display:inline-block;
+    margin:5%;
+    padding:2%;
+    text-align:center;
+}
+.body p{
+    margin:2%;
+}
+.info img {
+    display:inline-block;
+    width:20%;
+    margin:2% 40% 0;
+}
+.info p {
+    display:inline-block;
+    margin:0.5% 40% 6%;
+    width:20%;
+}
+.info span {
+    font-weight:bold;
+}
+footer img {
+    position:relative;
+    top:6rem;
+    width:100%;
+    z-index:-1;
+    margin:0;
+    padding:0;
+}
+.footer-img {
+    margin:0;
+    padding:0;
+}
+
+footer nav {
+    background-color:#F9E7DC;
+    display:inline-block;
+    width:100%;
+    padding:3% 0;
+    margin:0;
+}
