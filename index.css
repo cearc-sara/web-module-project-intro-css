@@ -62,8 +62,10 @@ header div {
     text-align:center;
 }
 .disc-box {
+    display:inline-block;
     text-align:center;
     width:50%;
+    margin:0;
 }
 header img{
     border-radius:50%;
@@ -79,13 +81,13 @@ h1.guide {
     width:100%;
     text-align:center;
     padding:3%;
-    margin:0 auto;
+    margin:0 auto 5%;
 }
 header p {
     display:inline-block;
     text-align:center;
     padding:0;
-    margin:0 auto;
+    margin:0 auto 10%;
 }
 .body {
     background-color:#DDB9A3;
@@ -108,7 +110,7 @@ header p {
     width:20%;
 }
 .info span {
-    
+    font-weight:bold;
 }
 footer img {
     position:relative;
